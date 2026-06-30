@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+:root {
+  font-family: "PingFang SC", "Microsoft YaHei", Inter, system-ui, sans-serif;
+  color: #172033;
+  background: #f5f7fb;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+* { box-sizing: border-box; }
+html { min-width: 320px; background: #f5f7fb; }
+body { margin: 0; min-width: 320px; min-height: 100vh; }
+button, input, select { font: inherit; }
+a { color: inherit; text-decoration: none; }
+
+.app-shell { display: flex; min-height: 100vh; flex-direction: column; }
+.content-container, .page-container { width: min(100% - 32px, 1200px); margin-inline: auto; }
+.page-container { flex: 1; padding-block: 40px 64px; }
+.site-footer { border-top: 1px solid #e4e9f2; background: #fff; padding: 28px 0 20px; }
+.copyright { margin: 16px 0 0; text-align: center; color: #8a94a6; font-size: 13px; }
+
+.page-heading { margin-bottom: 28px; }
+.page-heading h1 { margin: 0 0 10px; font-size: clamp(28px, 4vw, 38px); line-height: 1.25; color: #16213a; }
+.page-heading p { margin: 0; max-width: 760px; color: #657087; font-size: 16px; line-height: 1.8; }
+.surface-card { border: 1px solid #e6eaf1; border-radius: 18px; background: #fff; box-shadow: 0 10px 35px rgba(38, 57, 96, .06); }
+.section-title { margin: 0 0 18px; font-size: 21px; color: #202b45; }
+.muted { color: #7a8498; }
+
+@media (max-width: 640px) {
+  .content-container, .page-container { width: min(100% - 24px, 1200px); }
+  .page-container { padding-block: 28px 44px; }
+}

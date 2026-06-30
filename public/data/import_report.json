@@ -1,0 +1,84 @@
+{
+  "generatedAt": "2026-06-30T19:57:28.803Z",
+  "sourceDirectory": "高职高专普通批次",
+  "policy": "保守导入：仅使用格式完整且与2026专业组代码直接匹配的历史记录，不猜测修复损坏代码",
+  "plans": {
+    "sourceRows": 32971,
+    "importedMajorRows": 4949,
+    "groups": 551,
+    "schools": 91,
+    "jointGroups": 122
+  },
+  "scores": {
+    "2023_物理": {
+      "sourceRows": 718,
+      "strictRows": 6,
+      "matchedCurrentGroups": 0,
+      "ranksDerived": 0
+    },
+    "2023_历史": {
+      "sourceRows": 682,
+      "strictRows": 5,
+      "matchedCurrentGroups": 1,
+      "ranksDerived": 1
+    },
+    "2024_物理": {
+      "sourceRows": 850,
+      "strictRows": 643,
+      "matchedCurrentGroups": 159,
+      "ranksDerived": 76
+    },
+    "2024_历史": {
+      "sourceRows": 737,
+      "strictRows": 587,
+      "matchedCurrentGroups": 183,
+      "ranksDerived": 81
+    },
+    "2025_物理": {
+      "sourceRows": 868,
+      "strictRows": 312,
+      "matchedCurrentGroups": 105,
+      "ranksDerived": 44
+    },
+    "2025_历史": {
+      "sourceRows": 646,
+      "strictRows": 221,
+      "matchedCurrentGroups": 95,
+      "ranksDerived": 28
+    }
+  },
+  "ranks": {
+    "2023_物理": {
+      "sourceRows": 182,
+      "anomalousRowsExcludedFromConversion": 0
+    },
+    "2023_历史": {
+      "sourceRows": 173,
+      "anomalousRowsExcludedFromConversion": 4
+    },
+    "2024_物理": {
+      "sourceRows": 165,
+      "anomalousRowsExcludedFromConversion": 0
+    },
+    "2024_历史": {
+      "sourceRows": 173,
+      "anomalousRowsExcludedFromConversion": 10
+    },
+    "2025_物理": {
+      "sourceRows": 207,
+      "anomalousRowsExcludedFromConversion": 29
+    },
+    "2025_历史": {
+      "sourceRows": 207,
+      "anomalousRowsExcludedFromConversion": 36
+    },
+    "2026_物理": {
+      "sourceRows": 185,
+      "anomalousRowsExcludedFromConversion": 3
+    },
+    "2026_历史": {
+      "sourceRows": 176,
+      "anomalousRowsExcludedFromConversion": 7
+    }
+  }
+}
