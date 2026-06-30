@@ -45,7 +45,7 @@ async function submit() {
         <el-checkbox v-model="form.jointOnly">只看专本联合培养</el-checkbox>
       </el-form-item>
     </div>
-    <div class="submit-row"><el-button type="primary" size="large" native-type="submit">生成推荐</el-button><span>优先使用位次；未填写位次时按一分一段表示例数据换算。</span></div>
+    <div class="submit-row"><el-button type="primary" size="large" native-type="submit">生成推荐</el-button><span>优先使用位次；未填写时按 2026 一分一段表换算，缺少可靠记录时请直接填写位次。</span></div>
   </el-form>
 </template>
 
